@@ -1,78 +1,27 @@
-body{
-    font-size: 16px;
+
+body {
+    color: #1c1c20;
+    font-family: 'Oxygen', sans-serif;
 }
 
-/*Navbar*/
 .navbar {
-    background-color: gray;
+    border: 0;
     border-radius: 0;
-    border: 4px black solid;
-    min-height: 100px;
-  }
+}
 
-.navbar-brand h1{
-    font-size: 2em;
-    padding-top: 10px;
+.navbar-default .navbar-brand{
+    color: #1c1c20;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+section {
+    border: 1px solid #000;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    padding: 5%;
+    background-color: gray
     
-    color: black;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-#nav-list {
-    margin-top: 10px;
-  }
-#nav-list  {
-    background: white;
-    text-align: center;
-    border: 1px black solid;
-    
-  }
-.navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
-    
-  }
-.navbar-default .navbar-toggle {
-    border-color: #000000;
-  }
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #000;
-}
-.navbar-toggle .icon-bar {
-    display: block;
-    width: 22px;
-    height: 4px;
-    border-radius: 1px;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #000000;
-font-weight: bold;}
-li{
-    border: 1px black solid;
-}
-/*main content*/
-.row {
-    margin-right: 50px;
-    margin-left: 50px;
-}
-h1{
-    font-weight: bold;
-    color: black;
-    margin-bottom: 25px;
-}
-h2,p{
-    font-weight: bold;
-    color: black;
-}
-
-
-.col-xs-12{
-    margin-bottom: 20px;
-    background-color: gray;
-opacity: 0.8;
 }
